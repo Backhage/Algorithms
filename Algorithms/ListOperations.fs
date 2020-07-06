@@ -42,19 +42,10 @@ let lengthList list =
     accumulator 0 list.Node
 
 let reverseList list =
-    let rec buildQueue (queue : Queue<'a>) node =
+    let rec buildReverseList reverseList node =
         match node with
         | Some n ->
-            queue.Enqueue n.Item
-            buildQueue queue n.Next
-        | None -> queue 
-
-    let rec buildReverseList (queue : Queue<'a>) list =
-        if (queue.Count > 0) then
-            let list = insertList list (queue.Dequeue())
-            buildReverseList queue list
-        else
-            list
-
-    let queue = buildQueue (Queue<'a>()) list.Node
-    buildReverseList queue { Node = None }
+            let reverseList = insertList reverseList n.Item
+            buildReverseList reverseList n.Next
+        | None -> reverseList
+    buildReverseList { Node = None } list.Node
