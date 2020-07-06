@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="DictionaryTypes.fs" />
+    <Compile Include="DictionaryOperations.fs" />
     <Compile Include="ListTypes.fs" />
     <Compile Include="ListOperations.fs" />
   </ItemGroup>
