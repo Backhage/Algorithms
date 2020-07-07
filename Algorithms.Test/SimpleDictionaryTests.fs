@@ -1,4 +1,4 @@
-﻿module Algoritms.Test
+﻿module SimpleDictionary.Tests
 
 open DictionaryTypes
 open DictionaryOperations

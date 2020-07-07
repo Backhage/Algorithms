@@ -14,8 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="QuickRangeMinLookupTests.fs" />
     <Compile Include="SimpleDictionaryTests.fs" />
-    <Compile Include="SinglyLinkedListTest.fs" />
+    <Compile Include="SinglyLinkedListTests.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 

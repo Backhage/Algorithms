@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="QuickRangeMinLookup.fs" />
     <Compile Include="DictionaryTypes.fs" />
     <Compile Include="DictionaryOperations.fs" />
     <Compile Include="ListTypes.fs" />

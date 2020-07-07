@@ -1,4 +1,4 @@
-module Algorithms.Test
+module SinglyLinkedList.Test
 
 open NUnit.Framework
 open ListTypes
